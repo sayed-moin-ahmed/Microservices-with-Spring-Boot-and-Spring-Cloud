@@ -1,13 +1,13 @@
-package com.microservices.springcloud.springboot;
+package com.spring.ms.boot.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
